@@ -1,0 +1,74 @@
+/*************Background Section********/
+
+body {
+
+   background-image: url("image/background.jpg");
+   background-repeat:repeat-x;
+   background-attachment:fixed;
+   background-size: 5% 100%;
+  
+}
+
+/*************Navigation Section********/
+
+
+list-style-type: none; margin: 0; padding: 0; overflow: hidden; background-color: #333;}
+{float:left;}
+
+a:hover:not(.active) {background-color:#ffffcc;}
+
+
+/*************Content Section********/
+
+div
+
+{ background-color:#ffff80; width: 300px; border:15px 	solid black; padding: 50px; margin: 20px;}
+
+
+list 
+
+ul li {
+  background:#bf8040;
+  margin:10px;}
+
+
+
+div {
+  width:500px;
+  padding: 30px;
+  border: 10px solid grey;
+  margin:auto;}
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 150px;}
+
+div.gallery img {
+  width:100%;
+  height: auto;
+}
+
+
+.contact {
+   border: 2px solid;
+   width: 500px;
+   height: 300px;
+	float: left;
+   margin-left: 10%;
+   margin-right: 10%;
+   margin-top:2%;
+   margin-bottom:2%;
+   padding-left: 10px;
+   padding-right: 10px;
+}  
+
+
+/*************Sidebar Section********/
+a:hover{font-size: 30px; text-decoration:none;}
+
+
+
+/*************Footer Section********/
+.footer-main {clear:both;}
